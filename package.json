@@ -1,0 +1,27 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "a webpack configuration for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server  --open --hot",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react&webpack"
+  ],
+  "author": "yuxl",
+  "license": "MIT",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.0.1",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "react": "^16.2.0",
+    "redux": "^3.7.2"
+  }
+}
